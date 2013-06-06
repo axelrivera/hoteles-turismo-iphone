@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		161ECD0D1760BC550008A82C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 161ECD0C1760BC550008A82C /* UIKit.framework */; };
+		161ECD0F1760BC550008A82C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 161ECD0E1760BC550008A82C /* Foundation.framework */; };
+		161ECD111760BC550008A82C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 161ECD101760BC550008A82C /* CoreGraphics.framework */; };
+		161ECD171760BC550008A82C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 161ECD151760BC550008A82C /* InfoPlist.strings */; };
+		161ECD191760BC550008A82C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 161ECD181760BC550008A82C /* main.m */; };
+		161ECD1D1760BC550008A82C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 161ECD1C1760BC550008A82C /* AppDelegate.m */; };
+		161ECD1F1760BC550008A82C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 161ECD1E1760BC550008A82C /* Default.png */; };
+		161ECD211760BC550008A82C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 161ECD201760BC550008A82C /* Default@2x.png */; };
+		161ECD231760BC550008A82C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 161ECD221760BC550008A82C /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		161ECD091760BC550008A82C /* TurismoPR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TurismoPR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		161ECD0C1760BC550008A82C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		161ECD0E1760BC550008A82C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		161ECD101760BC550008A82C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		161ECD141760BC550008A82C /* TurismoPR-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TurismoPR-Info.plist"; sourceTree = "<group>"; };
+		161ECD161760BC550008A82C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		161ECD181760BC550008A82C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		161ECD1A1760BC550008A82C /* TurismoPR-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TurismoPR-Prefix.pch"; sourceTree = "<group>"; };
+		161ECD1B1760BC550008A82C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		161ECD1C1760BC550008A82C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		161ECD1E1760BC550008A82C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		161ECD201760BC550008A82C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		161ECD221760BC550008A82C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		161ECD061760BC550008A82C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				161ECD0D1760BC550008A82C /* UIKit.framework in Frameworks */,
+				161ECD0F1760BC550008A82C /* Foundation.framework in Frameworks */,
+				161ECD111760BC550008A82C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		161ECD001760BC550008A82C = {
+			isa = PBXGroup;
+			children = (
+				161ECD121760BC550008A82C /* TurismoPR */,
+				161ECD0B1760BC550008A82C /* Frameworks */,
+				161ECD0A1760BC550008A82C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		161ECD0A1760BC550008A82C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				161ECD091760BC550008A82C /* TurismoPR.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		161ECD0B1760BC550008A82C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				161ECD0C1760BC550008A82C /* UIKit.framework */,
+				161ECD0E1760BC550008A82C /* Foundation.framework */,
+				161ECD101760BC550008A82C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		161ECD121760BC550008A82C /* TurismoPR */ = {
+			isa = PBXGroup;
+			children = (
+				161ECD1B1760BC550008A82C /* AppDelegate.h */,
+				161ECD1C1760BC550008A82C /* AppDelegate.m */,
+				161ECD131760BC550008A82C /* Supporting Files */,
+			);
+			path = TurismoPR;
+			sourceTree = "<group>";
+		};
+		161ECD131760BC550008A82C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				161ECD141760BC550008A82C /* TurismoPR-Info.plist */,
+				161ECD151760BC550008A82C /* InfoPlist.strings */,
+				161ECD181760BC550008A82C /* main.m */,
+				161ECD1A1760BC550008A82C /* TurismoPR-Prefix.pch */,
+				161ECD1E1760BC550008A82C /* Default.png */,
+				161ECD201760BC550008A82C /* Default@2x.png */,
+				161ECD221760BC550008A82C /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		161ECD081760BC550008A82C /* TurismoPR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 161ECD261760BC550008A82C /* Build configuration list for PBXNativeTarget "TurismoPR" */;
+			buildPhases = (
+				161ECD051760BC550008A82C /* Sources */,
+				161ECD061760BC550008A82C /* Frameworks */,
+				161ECD071760BC550008A82C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TurismoPR;
+			productName = TurismoPR;
+			productReference = 161ECD091760BC550008A82C /* TurismoPR.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		161ECD011760BC550008A82C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Axel Rivera";
+			};
+			buildConfigurationList = 161ECD041760BC550008A82C /* Build configuration list for PBXProject "TurismoPR" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 161ECD001760BC550008A82C;
+			productRefGroup = 161ECD0A1760BC550008A82C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				161ECD081760BC550008A82C /* TurismoPR */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		161ECD071760BC550008A82C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				161ECD171760BC550008A82C /* InfoPlist.strings in Resources */,
+				161ECD1F1760BC550008A82C /* Default.png in Resources */,
+				161ECD211760BC550008A82C /* Default@2x.png in Resources */,
+				161ECD231760BC550008A82C /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		161ECD051760BC550008A82C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				161ECD191760BC550008A82C /* main.m in Sources */,
+				161ECD1D1760BC550008A82C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		161ECD151760BC550008A82C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				161ECD161760BC550008A82C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		161ECD241760BC550008A82C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		161ECD251760BC550008A82C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		161ECD271760BC550008A82C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TurismoPR/TurismoPR-Prefix.pch";
+				INFOPLIST_FILE = "TurismoPR/TurismoPR-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		161ECD281760BC550008A82C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TurismoPR/TurismoPR-Prefix.pch";
+				INFOPLIST_FILE = "TurismoPR/TurismoPR-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		161ECD041760BC550008A82C /* Build configuration list for PBXProject "TurismoPR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				161ECD241760BC550008A82C /* Debug */,
+				161ECD251760BC550008A82C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		161ECD261760BC550008A82C /* Build configuration list for PBXNativeTarget "TurismoPR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				161ECD271760BC550008A82C /* Debug */,
+				161ECD281760BC550008A82C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 161ECD011760BC550008A82C /* Project object */;
+}

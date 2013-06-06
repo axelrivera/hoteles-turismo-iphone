@@ -16,10 +16,45 @@
 		161ECD1F1760BC550008A82C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 161ECD1E1760BC550008A82C /* Default.png */; };
 		161ECD211760BC550008A82C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 161ECD201760BC550008A82C /* Default@2x.png */; };
 		161ECD231760BC550008A82C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 161ECD221760BC550008A82C /* Default-568h@2x.png */; };
+		161ECD421760BD610008A82C /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 161ECD301760BD610008A82C /* AFHTTPClient.m */; };
+		161ECD431760BD610008A82C /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 161ECD321760BD610008A82C /* AFHTTPRequestOperation.m */; };
+		161ECD441760BD610008A82C /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 161ECD341760BD610008A82C /* AFImageRequestOperation.m */; };
+		161ECD451760BD610008A82C /* AFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 161ECD361760BD610008A82C /* AFJSONRequestOperation.m */; };
+		161ECD461760BD610008A82C /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 161ECD381760BD610008A82C /* AFNetworkActivityIndicatorManager.m */; };
+		161ECD471760BD610008A82C /* AFPropertyListRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 161ECD3B1760BD610008A82C /* AFPropertyListRequestOperation.m */; };
+		161ECD481760BD610008A82C /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 161ECD3D1760BD610008A82C /* AFURLConnectionOperation.m */; };
+		161ECD491760BD610008A82C /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 161ECD3F1760BD610008A82C /* AFXMLRequestOperation.m */; };
+		161ECD4A1760BD610008A82C /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 161ECD411760BD610008A82C /* UIImageView+AFNetworking.m */; };
+		161ECD4C1760BDB30008A82C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 161ECD4B1760BDB30008A82C /* MapKit.framework */; };
+		161ECD4E1760BDB90008A82C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 161ECD4D1760BDB90008A82C /* CoreLocation.framework */; };
+		161ECD501760BDC00008A82C /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 161ECD4F1760BDC00008A82C /* MobileCoreServices.framework */; };
+		161ECD521760BDC70008A82C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 161ECD511760BDC70008A82C /* SystemConfiguration.framework */; };
+		161ECD541760BDDB0008A82C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 161ECD531760BDDB0008A82C /* QuartzCore.framework */; };
+		161ECD5E1760BE450008A82C /* FoursquareAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 161ECD571760BE450008A82C /* FoursquareAPIClient.m */; };
+		161ECD5F1760BE450008A82C /* Hotel.m in Sources */ = {isa = PBXBuildFile; fileRef = 161ECD591760BE450008A82C /* Hotel.m */; };
+		161ECD601760BE450008A82C /* TurismoAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 161ECD5B1760BE450008A82C /* TurismoAPIClient.m */; };
+		161ECD611760BE450008A82C /* Venue.m in Sources */ = {isa = PBXBuildFile; fileRef = 161ECD5D1760BE450008A82C /* Venue.m */; };
+		161ECD651760C1100008A82C /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 161ECD631760C1100008A82C /* MainViewController.m */; };
+		161ECD661760C1100008A82C /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 161ECD641760C1100008A82C /* MainViewController.xib */; };
+		161ECD6A1760C1470008A82C /* HotelMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 161ECD681760C1470008A82C /* HotelMapViewController.m */; };
+		161ECD6B1760C1470008A82C /* HotelMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 161ECD691760C1470008A82C /* HotelMapViewController.xib */; };
+		161ECD6F1760C1670008A82C /* HotelDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 161ECD6D1760C1660008A82C /* HotelDetailViewController.m */; };
+		161ECD701760C1670008A82C /* HotelDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 161ECD6E1760C1660008A82C /* HotelDetailViewController.xib */; };
+		161ECD741760C17E0008A82C /* VenueMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 161ECD721760C17E0008A82C /* VenueMapViewController.m */; };
+		161ECD751760C17E0008A82C /* VenueMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 161ECD731760C17E0008A82C /* VenueMapViewController.xib */; };
+		161ECD791760C9E40008A82C /* TurismoData.m in Sources */ = {isa = PBXBuildFile; fileRef = 161ECD781760C9E40008A82C /* TurismoData.m */; };
+		1671B9DF176133EF00C24B49 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 1671B9D7176133EE00C24B49 /* Icon-72.png */; };
+		1671B9E0176133EF00C24B49 /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1671B9D8176133EE00C24B49 /* Icon-72@2x.png */; };
+		1671B9E1176133EF00C24B49 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 1671B9D9176133EE00C24B49 /* Icon-Small-50.png */; };
+		1671B9E2176133EF00C24B49 /* Icon-Small-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1671B9DA176133EE00C24B49 /* Icon-Small-50@2x.png */; };
+		1671B9E3176133EF00C24B49 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 1671B9DB176133EE00C24B49 /* Icon-Small.png */; };
+		1671B9E4176133EF00C24B49 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1671B9DC176133EE00C24B49 /* Icon-Small@2x.png */; };
+		1671B9E5176133EF00C24B49 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1671B9DD176133EE00C24B49 /* Icon.png */; };
+		1671B9E6176133EF00C24B49 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1671B9DE176133EF00C24B49 /* Icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		161ECD091760BC550008A82C /* TurismoPR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TurismoPR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		161ECD091760BC550008A82C /* Turismo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Turismo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		161ECD0C1760BC550008A82C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		161ECD0E1760BC550008A82C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		161ECD101760BC550008A82C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -32,6 +67,61 @@
 		161ECD1E1760BC550008A82C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		161ECD201760BC550008A82C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		161ECD221760BC550008A82C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		161ECD2F1760BD610008A82C /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPClient.h; sourceTree = "<group>"; };
+		161ECD301760BD610008A82C /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPClient.m; sourceTree = "<group>"; };
+		161ECD311760BD610008A82C /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		161ECD321760BD610008A82C /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		161ECD331760BD610008A82C /* AFImageRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFImageRequestOperation.h; sourceTree = "<group>"; };
+		161ECD341760BD610008A82C /* AFImageRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFImageRequestOperation.m; sourceTree = "<group>"; };
+		161ECD351760BD610008A82C /* AFJSONRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFJSONRequestOperation.h; sourceTree = "<group>"; };
+		161ECD361760BD610008A82C /* AFJSONRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFJSONRequestOperation.m; sourceTree = "<group>"; };
+		161ECD371760BD610008A82C /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		161ECD381760BD610008A82C /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		161ECD391760BD610008A82C /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		161ECD3A1760BD610008A82C /* AFPropertyListRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPropertyListRequestOperation.h; sourceTree = "<group>"; };
+		161ECD3B1760BD610008A82C /* AFPropertyListRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFPropertyListRequestOperation.m; sourceTree = "<group>"; };
+		161ECD3C1760BD610008A82C /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		161ECD3D1760BD610008A82C /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		161ECD3E1760BD610008A82C /* AFXMLRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFXMLRequestOperation.h; sourceTree = "<group>"; };
+		161ECD3F1760BD610008A82C /* AFXMLRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFXMLRequestOperation.m; sourceTree = "<group>"; };
+		161ECD401760BD610008A82C /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		161ECD411760BD610008A82C /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		161ECD4B1760BDB30008A82C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		161ECD4D1760BDB90008A82C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		161ECD4F1760BDC00008A82C /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		161ECD511760BDC70008A82C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		161ECD531760BDDB0008A82C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		161ECD551760BE450008A82C /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		161ECD561760BE450008A82C /* FoursquareAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoursquareAPIClient.h; sourceTree = "<group>"; };
+		161ECD571760BE450008A82C /* FoursquareAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoursquareAPIClient.m; sourceTree = "<group>"; };
+		161ECD581760BE450008A82C /* Hotel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hotel.h; sourceTree = "<group>"; };
+		161ECD591760BE450008A82C /* Hotel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hotel.m; sourceTree = "<group>"; };
+		161ECD5A1760BE450008A82C /* TurismoAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TurismoAPIClient.h; sourceTree = "<group>"; };
+		161ECD5B1760BE450008A82C /* TurismoAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TurismoAPIClient.m; sourceTree = "<group>"; };
+		161ECD5C1760BE450008A82C /* Venue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Venue.h; sourceTree = "<group>"; };
+		161ECD5D1760BE450008A82C /* Venue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Venue.m; sourceTree = "<group>"; };
+		161ECD621760C1100008A82C /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		161ECD631760C1100008A82C /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		161ECD641760C1100008A82C /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		161ECD671760C1470008A82C /* HotelMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotelMapViewController.h; sourceTree = "<group>"; };
+		161ECD681760C1470008A82C /* HotelMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotelMapViewController.m; sourceTree = "<group>"; };
+		161ECD691760C1470008A82C /* HotelMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HotelMapViewController.xib; sourceTree = "<group>"; };
+		161ECD6C1760C1660008A82C /* HotelDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotelDetailViewController.h; sourceTree = "<group>"; };
+		161ECD6D1760C1660008A82C /* HotelDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotelDetailViewController.m; sourceTree = "<group>"; };
+		161ECD6E1760C1660008A82C /* HotelDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HotelDetailViewController.xib; sourceTree = "<group>"; };
+		161ECD711760C17E0008A82C /* VenueMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VenueMapViewController.h; sourceTree = "<group>"; };
+		161ECD721760C17E0008A82C /* VenueMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VenueMapViewController.m; sourceTree = "<group>"; };
+		161ECD731760C17E0008A82C /* VenueMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VenueMapViewController.xib; sourceTree = "<group>"; };
+		161ECD771760C9E40008A82C /* TurismoData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TurismoData.h; sourceTree = "<group>"; };
+		161ECD781760C9E40008A82C /* TurismoData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TurismoData.m; sourceTree = "<group>"; };
+		1671B9D7176133EE00C24B49 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		1671B9D8176133EE00C24B49 /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
+		1671B9D9176133EE00C24B49 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		1671B9DA176133EE00C24B49 /* Icon-Small-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50@2x.png"; sourceTree = "<group>"; };
+		1671B9DB176133EE00C24B49 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		1671B9DC176133EE00C24B49 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		1671B9DD176133EE00C24B49 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		1671B9DE176133EF00C24B49 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +129,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				161ECD541760BDDB0008A82C /* QuartzCore.framework in Frameworks */,
+				161ECD521760BDC70008A82C /* SystemConfiguration.framework in Frameworks */,
+				161ECD501760BDC00008A82C /* MobileCoreServices.framework in Frameworks */,
+				161ECD4E1760BDB90008A82C /* CoreLocation.framework in Frameworks */,
+				161ECD4C1760BDB30008A82C /* MapKit.framework in Frameworks */,
 				161ECD0D1760BC550008A82C /* UIKit.framework in Frameworks */,
 				161ECD0F1760BC550008A82C /* Foundation.framework in Frameworks */,
 				161ECD111760BC550008A82C /* CoreGraphics.framework in Frameworks */,
@@ -52,6 +147,7 @@
 			isa = PBXGroup;
 			children = (
 				161ECD121760BC550008A82C /* TurismoPR */,
+				161ECD2D1760BD610008A82C /* Libraries */,
 				161ECD0B1760BC550008A82C /* Frameworks */,
 				161ECD0A1760BC550008A82C /* Products */,
 			);
@@ -60,7 +156,7 @@
 		161ECD0A1760BC550008A82C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				161ECD091760BC550008A82C /* TurismoPR.app */,
+				161ECD091760BC550008A82C /* Turismo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -68,6 +164,11 @@
 		161ECD0B1760BC550008A82C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				161ECD531760BDDB0008A82C /* QuartzCore.framework */,
+				161ECD511760BDC70008A82C /* SystemConfiguration.framework */,
+				161ECD4F1760BDC00008A82C /* MobileCoreServices.framework */,
+				161ECD4D1760BDB90008A82C /* CoreLocation.framework */,
+				161ECD4B1760BDB30008A82C /* MapKit.framework */,
 				161ECD0C1760BC550008A82C /* UIKit.framework */,
 				161ECD0E1760BC550008A82C /* Foundation.framework */,
 				161ECD101760BC550008A82C /* CoreGraphics.framework */,
@@ -78,8 +179,15 @@
 		161ECD121760BC550008A82C /* TurismoPR */ = {
 			isa = PBXGroup;
 			children = (
-				161ECD1B1760BC550008A82C /* AppDelegate.h */,
-				161ECD1C1760BC550008A82C /* AppDelegate.m */,
+				161ECD581760BE450008A82C /* Hotel.h */,
+				161ECD591760BE450008A82C /* Hotel.m */,
+				161ECD5C1760BE450008A82C /* Venue.h */,
+				161ECD5D1760BE450008A82C /* Venue.m */,
+				161ECD2C1760BCFE0008A82C /* Singletons */,
+				161ECD2B1760BCEE0008A82C /* Models + Data */,
+				161ECD2A1760BCE70008A82C /* Controllers */,
+				161ECD291760BCDE0008A82C /* Constants */,
+				161ECD761760C1870008A82C /* Interface */,
 				161ECD131760BC550008A82C /* Supporting Files */,
 			);
 			path = TurismoPR;
@@ -88,6 +196,14 @@
 		161ECD131760BC550008A82C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1671B9D7176133EE00C24B49 /* Icon-72.png */,
+				1671B9D8176133EE00C24B49 /* Icon-72@2x.png */,
+				1671B9D9176133EE00C24B49 /* Icon-Small-50.png */,
+				1671B9DA176133EE00C24B49 /* Icon-Small-50@2x.png */,
+				1671B9DB176133EE00C24B49 /* Icon-Small.png */,
+				1671B9DC176133EE00C24B49 /* Icon-Small@2x.png */,
+				1671B9DD176133EE00C24B49 /* Icon.png */,
+				1671B9DE176133EF00C24B49 /* Icon@2x.png */,
 				161ECD141760BC550008A82C /* TurismoPR-Info.plist */,
 				161ECD151760BC550008A82C /* InfoPlist.strings */,
 				161ECD181760BC550008A82C /* main.m */,
@@ -97,6 +213,96 @@
 				161ECD221760BC550008A82C /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		161ECD291760BCDE0008A82C /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				161ECD551760BE450008A82C /* Constants.h */,
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
+		161ECD2A1760BCE70008A82C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				161ECD621760C1100008A82C /* MainViewController.h */,
+				161ECD631760C1100008A82C /* MainViewController.m */,
+				161ECD671760C1470008A82C /* HotelMapViewController.h */,
+				161ECD681760C1470008A82C /* HotelMapViewController.m */,
+				161ECD6C1760C1660008A82C /* HotelDetailViewController.h */,
+				161ECD6D1760C1660008A82C /* HotelDetailViewController.m */,
+				161ECD711760C17E0008A82C /* VenueMapViewController.h */,
+				161ECD721760C17E0008A82C /* VenueMapViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		161ECD2B1760BCEE0008A82C /* Models + Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Models + Data";
+			sourceTree = "<group>";
+		};
+		161ECD2C1760BCFE0008A82C /* Singletons */ = {
+			isa = PBXGroup;
+			children = (
+				161ECD1B1760BC550008A82C /* AppDelegate.h */,
+				161ECD1C1760BC550008A82C /* AppDelegate.m */,
+				161ECD561760BE450008A82C /* FoursquareAPIClient.h */,
+				161ECD571760BE450008A82C /* FoursquareAPIClient.m */,
+				161ECD5A1760BE450008A82C /* TurismoAPIClient.h */,
+				161ECD5B1760BE450008A82C /* TurismoAPIClient.m */,
+				161ECD771760C9E40008A82C /* TurismoData.h */,
+				161ECD781760C9E40008A82C /* TurismoData.m */,
+			);
+			name = Singletons;
+			sourceTree = "<group>";
+		};
+		161ECD2D1760BD610008A82C /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				161ECD2E1760BD610008A82C /* AFNetworking */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		161ECD2E1760BD610008A82C /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				161ECD2F1760BD610008A82C /* AFHTTPClient.h */,
+				161ECD301760BD610008A82C /* AFHTTPClient.m */,
+				161ECD311760BD610008A82C /* AFHTTPRequestOperation.h */,
+				161ECD321760BD610008A82C /* AFHTTPRequestOperation.m */,
+				161ECD331760BD610008A82C /* AFImageRequestOperation.h */,
+				161ECD341760BD610008A82C /* AFImageRequestOperation.m */,
+				161ECD351760BD610008A82C /* AFJSONRequestOperation.h */,
+				161ECD361760BD610008A82C /* AFJSONRequestOperation.m */,
+				161ECD371760BD610008A82C /* AFNetworkActivityIndicatorManager.h */,
+				161ECD381760BD610008A82C /* AFNetworkActivityIndicatorManager.m */,
+				161ECD391760BD610008A82C /* AFNetworking.h */,
+				161ECD3A1760BD610008A82C /* AFPropertyListRequestOperation.h */,
+				161ECD3B1760BD610008A82C /* AFPropertyListRequestOperation.m */,
+				161ECD3C1760BD610008A82C /* AFURLConnectionOperation.h */,
+				161ECD3D1760BD610008A82C /* AFURLConnectionOperation.m */,
+				161ECD3E1760BD610008A82C /* AFXMLRequestOperation.h */,
+				161ECD3F1760BD610008A82C /* AFXMLRequestOperation.m */,
+				161ECD401760BD610008A82C /* UIImageView+AFNetworking.h */,
+				161ECD411760BD610008A82C /* UIImageView+AFNetworking.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		161ECD761760C1870008A82C /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				161ECD641760C1100008A82C /* MainViewController.xib */,
+				161ECD691760C1470008A82C /* HotelMapViewController.xib */,
+				161ECD6E1760C1660008A82C /* HotelDetailViewController.xib */,
+				161ECD731760C17E0008A82C /* VenueMapViewController.xib */,
+			);
+			name = Interface;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -116,7 +322,7 @@
 			);
 			name = TurismoPR;
 			productName = TurismoPR;
-			productReference = 161ECD091760BC550008A82C /* TurismoPR.app */;
+			productReference = 161ECD091760BC550008A82C /* Turismo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -154,6 +360,18 @@
 				161ECD1F1760BC550008A82C /* Default.png in Resources */,
 				161ECD211760BC550008A82C /* Default@2x.png in Resources */,
 				161ECD231760BC550008A82C /* Default-568h@2x.png in Resources */,
+				161ECD661760C1100008A82C /* MainViewController.xib in Resources */,
+				161ECD6B1760C1470008A82C /* HotelMapViewController.xib in Resources */,
+				161ECD701760C1670008A82C /* HotelDetailViewController.xib in Resources */,
+				161ECD751760C17E0008A82C /* VenueMapViewController.xib in Resources */,
+				1671B9DF176133EF00C24B49 /* Icon-72.png in Resources */,
+				1671B9E0176133EF00C24B49 /* Icon-72@2x.png in Resources */,
+				1671B9E1176133EF00C24B49 /* Icon-Small-50.png in Resources */,
+				1671B9E2176133EF00C24B49 /* Icon-Small-50@2x.png in Resources */,
+				1671B9E3176133EF00C24B49 /* Icon-Small.png in Resources */,
+				1671B9E4176133EF00C24B49 /* Icon-Small@2x.png in Resources */,
+				1671B9E5176133EF00C24B49 /* Icon.png in Resources */,
+				1671B9E6176133EF00C24B49 /* Icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +384,24 @@
 			files = (
 				161ECD191760BC550008A82C /* main.m in Sources */,
 				161ECD1D1760BC550008A82C /* AppDelegate.m in Sources */,
+				161ECD421760BD610008A82C /* AFHTTPClient.m in Sources */,
+				161ECD431760BD610008A82C /* AFHTTPRequestOperation.m in Sources */,
+				161ECD441760BD610008A82C /* AFImageRequestOperation.m in Sources */,
+				161ECD451760BD610008A82C /* AFJSONRequestOperation.m in Sources */,
+				161ECD461760BD610008A82C /* AFNetworkActivityIndicatorManager.m in Sources */,
+				161ECD471760BD610008A82C /* AFPropertyListRequestOperation.m in Sources */,
+				161ECD481760BD610008A82C /* AFURLConnectionOperation.m in Sources */,
+				161ECD491760BD610008A82C /* AFXMLRequestOperation.m in Sources */,
+				161ECD4A1760BD610008A82C /* UIImageView+AFNetworking.m in Sources */,
+				161ECD5E1760BE450008A82C /* FoursquareAPIClient.m in Sources */,
+				161ECD5F1760BE450008A82C /* Hotel.m in Sources */,
+				161ECD601760BE450008A82C /* TurismoAPIClient.m in Sources */,
+				161ECD611760BE450008A82C /* Venue.m in Sources */,
+				161ECD651760C1100008A82C /* MainViewController.m in Sources */,
+				161ECD6A1760C1470008A82C /* HotelMapViewController.m in Sources */,
+				161ECD6F1760C1670008A82C /* HotelDetailViewController.m in Sources */,
+				161ECD741760C17E0008A82C /* VenueMapViewController.m in Sources */,
+				161ECD791760C9E40008A82C /* TurismoData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,9 +444,10 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "\"$(SRC_ROOT)/Libraries\"";
 			};
 			name = Debug;
 		};
@@ -232,9 +469,10 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "\"$(SRC_ROOT)/Libraries\"";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -245,7 +483,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TurismoPR/TurismoPR-Prefix.pch";
 				INFOPLIST_FILE = "TurismoPR/TurismoPR-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Turismo;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -256,7 +494,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TurismoPR/TurismoPR-Prefix.pch";
 				INFOPLIST_FILE = "TurismoPR/TurismoPR-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Turismo;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -280,6 +518,7 @@
 				161ECD281760BC550008A82C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
